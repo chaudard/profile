@@ -1,0 +1,102 @@
+body {
+  background-color: grey;
+  font-family: arial;
+  color: black;
+  font-size: 15px;
+  line-height: 12px;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: black;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 35px;}
+
+h2 {
+  color: blue;
+  font-size: 35px;
+  line-height: 30px;}
+
+h3 {
+  color: maroon;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 25px;}
+
+a {
+  color: white;
+}
+
+a:hover {
+  background: rgba(0,0,0,0);
+  color: teal;
+  box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#profile-picture {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+#function {
+  color: teal;
+}
+
+.movie-picture {
+  width: 200px;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    background: #BDB76B;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
