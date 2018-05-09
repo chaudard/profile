@@ -57,20 +57,20 @@ ul {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 900px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
 .card {
-    background: #BDB76B;
-    padding: 25px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+  background: #BDB76B;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .list-inline > li {
